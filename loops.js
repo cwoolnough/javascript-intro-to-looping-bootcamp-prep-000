@@ -1,11 +1,11 @@
-function theBeatlesPlay(musicians, instruments){
-        const artists = [];
-            musicians.forEach((musician, index) => { 
-                artists.push(`${musician} plays ${instruments[index]}`)
+// function theBeatlesPlay(musicians, instruments){
+//         const artists = [];
+//             musicians.forEach((musician, index) => { 
+//                 artists.push(`${musician} plays ${instruments[index]}`)
        
-        })
-        return artists;
-    }
+//         })
+//         return artists;
+//     }
     
     
 function johnLennonFacts(facts){
