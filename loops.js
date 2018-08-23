@@ -6,7 +6,7 @@ function theBeatlesPlay(musicians, instruments){
         })
         return artists;
     }
-    theBeatlesPlay(musicians, instruments);
+    
     
 
 function johnLennonFacts(facts){
@@ -19,7 +19,7 @@ function johnLennonFacts(facts){
       return results;   
   }
 
-  johnLennonFacts(facts)
+ 
   
   
   
