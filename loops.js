@@ -1,13 +1,35 @@
-function forLoop(array){
-  for(let i = 0; i < 25; i++){
-    if(i === 1){
-      array.push(`I am ${i} strange loop.`);
-    } else {
-      array.push(`I am ${i} strange loops.`);
+function theBeatlesPlay(musicians, instruments){
+        const artists = [];
+            musicians.forEach((musician, index) => { 
+                artists.push(`${musician} plays ${instruments[index]}`)
+       
+        })
+        return artists;
     }
+    theBeatlesPlay(musicians, instruments);
+    
+
+function johnLennonFacts(facts){
+      let results =[];
+      let i = 0;
+      while(i < facts.length){
+          results.push(facts[i] + "!!!")
+          i++
+      } 
+      return results;   
   }
-  return array;
-}
+
+  johnLennonFacts(facts)
+  
+  function iLoveTheBeatles(number){
+    let myArray = [];
+    do {
+      number++
+      return "I love the Beatles!";
+    } while (number < 15) {
+      i++
+   }
+  }
 
 
 
